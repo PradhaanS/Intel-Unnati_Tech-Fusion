@@ -1,0 +1,22 @@
+To run this code, you need to ensure you have Python and the required libraries installed on your system. Follow these steps:
+
+Install Python: If you don't have Python installed, download and install it from python.org.
+
+Install Required Libraries: Open a terminal or command prompt and install the required libraries using pip:
+
+pip install psutil
+pip install tk
+
+Save the Code: Save the provided code into a Python file, e.g., telemetry_collector.py.
+
+Run the Script: In the terminal or command prompt, navigate to the directory where you saved the telemetry_collector.py file and run the script using Python:
+
+python telemetry_collector.py
+
+Using the GUI: A GUI window will open with a button labeled "Run Telemetry". Click the button to start collecting telemetry data for 60 seconds. The telemetry collection process will display the remaining time and collect CPU, disk I/O, and memory usage data.
+
+Viewing Results: After the collection period, a new window will display the average values for CPU percent, disk I/O (in GB), memory percent, and estimated power consumption. It will also provide optimization suggestions based on the collected data.
+
+Make sure to close any unnecessary applications to observe more accurate telemetry data for the current system usage.
+
+If you encounter any issues, feel free to ask for further assistance.
